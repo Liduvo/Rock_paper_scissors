@@ -78,7 +78,7 @@ def rock_paper_scissorcs_v1(computer_or_human):
 
 
 
-rock_paper_scissorcs_v1(2)
+rock_paper_scissorcs_v1()
 
 
 
