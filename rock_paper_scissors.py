@@ -38,45 +38,45 @@ if v1_or_v2 == "v1":
             if computer == rock_paper_scissors_v1[1]:
                 print("---------------------------------------------------")
                 print("Computer Win!")
-                print("Computer choice: " + rock_paper_scissors_v1[1])
-                print("Player choice: " + rock_paper_scissors_v1[0])
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
                 print("---------------------------------------------------")
 
             elif computer == rock_paper_scissors_v1[2]:
                 print("---------------------------------------------------")
                 print("Player Win!")
-                print("Computer choice: " + rock_paper_scissors_v1[2])
-                print("Player choice:" + rock_paper_scissors_v1[0])
+                print("Computer choice: " + computer)
+                print("Player choice:" + player)
                 print("---------------------------------------------------")
 
         elif player == rock_paper_scissors_v1[1]:
             if computer == rock_paper_scissors_v1[0]:
                 print("---------------------------------------------------")
                 print("Player Win!")
-                print("Computer choice: " + rock_paper_scissors_v1[0])
-                print("Player choice: " + rock_paper_scissors_v1[1])
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
                 print("---------------------------------------------------")
 
             elif computer == rock_paper_scissors_v1[2]:
                 print("---------------------------------------------------")
                 print("Computer Win!")
-                print("Computer choice: " + rock_paper_scissors_v1[2])
-                print("Player choice: " + rock_paper_scissors_v1[1])
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
                 print("---------------------------------------------------")
 
         elif player == rock_paper_scissors_v1[2]:
             if computer == rock_paper_scissors_v1[0]:
                 print("---------------------------------------------------")
                 print("Computer Win!")
-                print("Computer choice: " + rock_paper_scissors_v1[0])
-                print("Player choice: " + rock_paper_scissors_v1[2])
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
                 print("---------------------------------------------------")
 
             elif computer == rock_paper_scissors_v1[1]:
                 print("---------------------------------------------------")
                 print("Player Win!")
-                print("Computer choice: " + rock_paper_scissors_v1[1])
-                print("Player choice: " + rock_paper_scissors_v1[2])
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
                 print("---------------------------------------------------")
 
 
@@ -94,7 +94,7 @@ elif v1_or_v2 == "v2":
     while True:
         print("---------------------------------------------------")
         print("Player1 Choice")
-        player = input("rock, gun, lightning, devil, dragon, water, air, paper, sponge, wolf, tree, human, snake, scissors, fire? :")
+        player = input("rock, gun, lightning, devil, dragon, water, air, paper, sponge, wolf, tree, human, snake, scissors, fire? :").lower()
         print("---------------------------------------------------")
 
         while player not in rock_paper_scissors_v2:
@@ -112,4 +112,533 @@ elif v1_or_v2 == "v2":
             print("---------------------------------------------------")
 
         elif player == rock_paper_scissors_v2[0]:
+            if computer == rock_paper_scissors_v2[1]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
 
+            elif computer == rock_paper_scissors_v2[2]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[3]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[4]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[5]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[6]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[7]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[8]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[9]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[10]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[11]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[12]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[13]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[14]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+        elif player == rock_paper_scissors_v2 [1]:
+            if computer == rock_paper_scissors_v2[0]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[2]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[3]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[4]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[5]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[6]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[7]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[8]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[9]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[10]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[11]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[12]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[13]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[14]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+        elif player == rock_paper_scissors_v2[2]:
+            if computer == rock_paper_scissors_v2[0]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[1]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[3]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[4]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[5]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[6]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[7]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[8]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[9]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[10]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[11]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[12]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[13]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[14]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+        elif player == rock_paper_scissors_v2[3]:
+            if computer == rock_paper_scissors_v2[0]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[1]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[2]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[4]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[5]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[6]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[7]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[8]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[9]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[10]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[11]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[12]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[13]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[14]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+        elif player == rock_paper_scissors_v2[4]:
+            if computer == rock_paper_scissors_v2[0]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[1]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[2]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[3]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+
+            elif computer == rock_paper_scissors_v2[5]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[6]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[7]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[8]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[9]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[10]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[11]:
+                print("---------------------------------------------------")
+                print("Computer Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[12]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[13]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[14]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+        elif player == rock_paper_scissors_v2[5]:
+            if computer == rock_paper_scissors_v2[0]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[1]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[2]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[3]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
+
+            elif computer == rock_paper_scissors_v2[4]:
+                print("---------------------------------------------------")
+                print("Player Win!")
+                print("Computer choice: " + computer)
+                print("Player choice: " + player)
+                print("---------------------------------------------------")
