@@ -1,5 +1,6 @@
 import random
 
+#We have defined our lists for possibilities.
 rock_paper_scissors_v1 = ["rock","paper","scissors"]
 rock_paper_scissors_v2 = ["rock","gun","lightning","devil","dragon","water","air","paper","sponge","wolf","tree","human","snake","scissors","fire"]
 
@@ -8,10 +9,12 @@ print("                Rock, Paper,Scissors                ")
 print("V1 = rock, paper and scissors")
 print("V2 = rock, gun, lightning, devil, dragon, water, air, paper, sponge, wolf, tree, human, snake, scissors and fire")
 print("****************************************************")
+
+#Input for you to choose which one you want to play.
 v1_or_v2 = input("     V1 or V2 :").lower()
 
 
-
+#Possibilities for rock, paper, scissors.
 if v1_or_v2 == "v1":
 
     while True:
@@ -81,13 +84,15 @@ if v1_or_v2 == "v1":
 
 
         print("Play again?")
+        
+        #Again
         play_again = input("     Yes or No :").lower()
 
         if play_again != "yes":
             print("See you again.")
             break
 
-
+#Possibilities for rock, paper, scissors V2.
 elif v1_or_v2 == "v2":
     while True:
         print("---------------------------------------------------")
@@ -1599,6 +1604,8 @@ elif v1_or_v2 == "v2":
 
 
         print("Play again?")
+        
+        #Again
         play_again = input("     Yes or No :").lower()
 
         if play_again != "yes":
